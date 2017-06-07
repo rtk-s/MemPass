@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		956715C21EE81A57000AF71B /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 956715C11EE81A57000AF71B /* logo2.png */; };
+		FC14FA4F1DF8B87C00145744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA4E1DF8B87C00145744 /* main.m */; };
+		FC14FA521DF8B87C00145744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA511DF8B87C00145744 /* AppDelegate.m */; };
+		FC14FA551DF8B87C00145744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA541DF8B87C00145744 /* ViewController.m */; };
+		FC14FA581DF8B87C00145744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA561DF8B87C00145744 /* Main.storyboard */; };
+		FC14FA5A1DF8B87C00145744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA591DF8B87C00145744 /* Assets.xcassets */; };
+		FC14FA5D1DF8B87C00145744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA5B1DF8B87C00145744 /* LaunchScreen.storyboard */; };
+		FC14FA811DF8BC6500145744 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA801DF8BC6500145744 /* logo.png */; };
+		FC14FA841DF8BF7D00145744 /* UITextFieldPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */; };
+		FC14FA871DF8CD8D00145744 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */; };
+		FC186B7B1DFDF2E7001F86B5 /* UserListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC186B7A1DFDF2E7001F86B5 /* UserListsViewController.m */; };
+		FC83B3001DFD392400DB1522 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B2FB1DFD392400DB1522 /* NSData+Base64.m */; };
+		FC83B3011DFD392400DB1522 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B2FD1DFD392400DB1522 /* NSData+CommonCrypto.m */; };
+		FC83B3021DFD392400DB1522 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B2FF1DFD392400DB1522 /* NSString+Base64.m */; };
+		FC83B3051DFD397500DB1522 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B3041DFD397500DB1522 /* AESCrypt.m */; };
+		FC83B3081DFD3B8800DB1522 /* SqlLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B3071DFD3B8800DB1522 /* SqlLoader.m */; };
+		FC83B30B1DFD524700DB1522 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = FC83B30A1DFD524700DB1522 /* UserData.m */; };
+		FCCBA69D1E0130A900D45A9B /* padlock.png in Resources */ = {isa = PBXBuildFile; fileRef = FCCBA69C1E0130A900D45A9B /* padlock.png */; };
+		FCCBA6A01E0132DA00D45A9B /* AccountInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCBA69F1E0132DA00D45A9B /* AccountInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC14FA641DF8B87C00145744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC14FA421DF8B87C00145744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC14FA491DF8B87C00145744;
+			remoteInfo = PasswordLocker;
+		};
+		FC14FA6F1DF8B87C00145744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC14FA421DF8B87C00145744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC14FA491DF8B87C00145744;
+			remoteInfo = PasswordLocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9560AB3D1EE8C1D90090FE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9560AB3E1EE8C1D90090FE1D /* PasswordLockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordLockerTests.m; sourceTree = "<group>"; };
+		9560AB401EE8C1D90090FE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9560AB411EE8C1D90090FE1D /* PasswordLockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordLockerUITests.m; sourceTree = "<group>"; };
+		956715C11EE81A57000AF71B /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		FC14FA4A1DF8B87C00145744 /* MemPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC14FA4E1DF8B87C00145744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC14FA501DF8B87C00145744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC14FA511DF8B87C00145744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC14FA531DF8B87C00145744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC14FA541DF8B87C00145744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC14FA571DF8B87C00145744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC14FA591DF8B87C00145744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC14FA5C1DF8B87C00145744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC14FA5E1DF8B87C00145744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC14FA631DF8B87C00145744 /* MemPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC14FA6E1DF8B87C00145744 /* MemPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC14FA801DF8BC6500145744 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FC14FA821DF8BF7D00145744 /* UITextFieldPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldPassword.h; sourceTree = "<group>"; };
+		FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldPassword.m; sourceTree = "<group>"; };
+		FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		FC186B791DFDF2E7001F86B5 /* UserListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListsViewController.h; sourceTree = "<group>"; };
+		FC186B7A1DFDF2E7001F86B5 /* UserListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListsViewController.m; sourceTree = "<group>"; };
+		FC83B2FA1DFD392400DB1522 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FC83B2FB1DFD392400DB1522 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FC83B2FC1DFD392400DB1522 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		FC83B2FD1DFD392400DB1522 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		FC83B2FE1DFD392400DB1522 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		FC83B2FF1DFD392400DB1522 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		FC83B3031DFD397500DB1522 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		FC83B3041DFD397500DB1522 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		FC83B3061DFD3B8800DB1522 /* SqlLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlLoader.h; sourceTree = "<group>"; };
+		FC83B3071DFD3B8800DB1522 /* SqlLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlLoader.m; sourceTree = "<group>"; };
+		FC83B3091DFD524700DB1522 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		FC83B30A1DFD524700DB1522 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		FCCBA69C1E0130A900D45A9B /* padlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padlock.png; sourceTree = "<group>"; };
+		FCCBA69E1E0132DA00D45A9B /* AccountInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInfoViewController.h; sourceTree = "<group>"; };
+		FCCBA69F1E0132DA00D45A9B /* AccountInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInfoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC14FA471DF8B87C00145744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC14FA871DF8CD8D00145744 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14FA601DF8B87C00145744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14FA6B1DF8B87C00145744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9560AB3C1EE8C1D90090FE1D /* MemPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				9560AB3D1EE8C1D90090FE1D /* Info.plist */,
+				9560AB3E1EE8C1D90090FE1D /* PasswordLockerTests.m */,
+			);
+			path = MemPassTests;
+			sourceTree = "<group>";
+		};
+		9560AB3F1EE8C1D90090FE1D /* MemPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9560AB401EE8C1D90090FE1D /* Info.plist */,
+				9560AB411EE8C1D90090FE1D /* PasswordLockerUITests.m */,
+			);
+			path = MemPassUITests;
+			sourceTree = "<group>";
+		};
+		FC14FA411DF8B87C00145744 = {
+			isa = PBXGroup;
+			children = (
+				FC14FA4C1DF8B87C00145744 /* MemPass */,
+				9560AB3C1EE8C1D90090FE1D /* MemPassTests */,
+				9560AB3F1EE8C1D90090FE1D /* MemPassUITests */,
+				FC14FA4B1DF8B87C00145744 /* Products */,
+				FC14FA851DF8CD8D00145744 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC14FA4B1DF8B87C00145744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC14FA4A1DF8B87C00145744 /* MemPass.app */,
+				FC14FA631DF8B87C00145744 /* MemPassTests.xctest */,
+				FC14FA6E1DF8B87C00145744 /* MemPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC14FA4C1DF8B87C00145744 /* MemPass */ = {
+			isa = PBXGroup;
+			children = (
+				FCCBA69C1E0130A900D45A9B /* padlock.png */,
+				FC83B3031DFD397500DB1522 /* AESCrypt.h */,
+				FC83B3041DFD397500DB1522 /* AESCrypt.m */,
+				FC83B2FA1DFD392400DB1522 /* NSData+Base64.h */,
+				FC83B2FB1DFD392400DB1522 /* NSData+Base64.m */,
+				FC83B2FC1DFD392400DB1522 /* NSData+CommonCrypto.h */,
+				FC83B2FD1DFD392400DB1522 /* NSData+CommonCrypto.m */,
+				FC83B2FE1DFD392400DB1522 /* NSString+Base64.h */,
+				FC83B2FF1DFD392400DB1522 /* NSString+Base64.m */,
+				FC14FA801DF8BC6500145744 /* logo.png */,
+				956715C11EE81A57000AF71B /* logo2.png */,
+				FC14FA501DF8B87C00145744 /* AppDelegate.h */,
+				FC14FA511DF8B87C00145744 /* AppDelegate.m */,
+				FC14FA531DF8B87C00145744 /* ViewController.h */,
+				FC14FA541DF8B87C00145744 /* ViewController.m */,
+				FC14FA561DF8B87C00145744 /* Main.storyboard */,
+				FC186B791DFDF2E7001F86B5 /* UserListsViewController.h */,
+				FC186B7A1DFDF2E7001F86B5 /* UserListsViewController.m */,
+				FC14FA591DF8B87C00145744 /* Assets.xcassets */,
+				FC14FA5B1DF8B87C00145744 /* LaunchScreen.storyboard */,
+				FC14FA5E1DF8B87C00145744 /* Info.plist */,
+				FC14FA4D1DF8B87C00145744 /* Supporting Files */,
+				FC14FA821DF8BF7D00145744 /* UITextFieldPassword.h */,
+				FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */,
+				FC83B3061DFD3B8800DB1522 /* SqlLoader.h */,
+				FC83B3071DFD3B8800DB1522 /* SqlLoader.m */,
+				FC83B3091DFD524700DB1522 /* UserData.h */,
+				FC83B30A1DFD524700DB1522 /* UserData.m */,
+				FCCBA69E1E0132DA00D45A9B /* AccountInfoViewController.h */,
+				FCCBA69F1E0132DA00D45A9B /* AccountInfoViewController.m */,
+			);
+			path = MemPass;
+			sourceTree = "<group>";
+		};
+		FC14FA4D1DF8B87C00145744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC14FA4E1DF8B87C00145744 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC14FA851DF8CD8D00145744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC14FA491DF8B87C00145744 /* MemPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC14FA771DF8B87C00145744 /* Build configuration list for PBXNativeTarget "MemPass" */;
+			buildPhases = (
+				FC14FA461DF8B87C00145744 /* Sources */,
+				FC14FA471DF8B87C00145744 /* Frameworks */,
+				FC14FA481DF8B87C00145744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemPass;
+			productName = PasswordLocker;
+			productReference = FC14FA4A1DF8B87C00145744 /* MemPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC14FA621DF8B87C00145744 /* MemPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC14FA7A1DF8B87C00145744 /* Build configuration list for PBXNativeTarget "MemPassTests" */;
+			buildPhases = (
+				FC14FA5F1DF8B87C00145744 /* Sources */,
+				FC14FA601DF8B87C00145744 /* Frameworks */,
+				FC14FA611DF8B87C00145744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC14FA651DF8B87C00145744 /* PBXTargetDependency */,
+			);
+			name = MemPassTests;
+			productName = PasswordLockerTests;
+			productReference = FC14FA631DF8B87C00145744 /* MemPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC14FA6D1DF8B87C00145744 /* MemPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC14FA7D1DF8B87C00145744 /* Build configuration list for PBXNativeTarget "MemPassUITests" */;
+			buildPhases = (
+				FC14FA6A1DF8B87C00145744 /* Sources */,
+				FC14FA6B1DF8B87C00145744 /* Frameworks */,
+				FC14FA6C1DF8B87C00145744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC14FA701DF8B87C00145744 /* PBXTargetDependency */,
+			);
+			name = MemPassUITests;
+			productName = PasswordLockerUITests;
+			productReference = FC14FA6E1DF8B87C00145744 /* MemPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC14FA421DF8B87C00145744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nikaolay Malofeev";
+				TargetAttributes = {
+					FC14FA491DF8B87C00145744 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V4W5E3TPK9;
+						ProvisioningStyle = Automatic;
+					};
+					FC14FA621DF8B87C00145744 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC14FA491DF8B87C00145744;
+					};
+					FC14FA6D1DF8B87C00145744 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC14FA491DF8B87C00145744;
+					};
+				};
+			};
+			buildConfigurationList = FC14FA451DF8B87C00145744 /* Build configuration list for PBXProject "MemPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC14FA411DF8B87C00145744;
+			productRefGroup = FC14FA4B1DF8B87C00145744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC14FA491DF8B87C00145744 /* MemPass */,
+				FC14FA621DF8B87C00145744 /* MemPassTests */,
+				FC14FA6D1DF8B87C00145744 /* MemPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC14FA481DF8B87C00145744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956715C21EE81A57000AF71B /* logo2.png in Resources */,
+				FC14FA811DF8BC6500145744 /* logo.png in Resources */,
+				FC14FA5D1DF8B87C00145744 /* LaunchScreen.storyboard in Resources */,
+				FC14FA5A1DF8B87C00145744 /* Assets.xcassets in Resources */,
+				FC14FA581DF8B87C00145744 /* Main.storyboard in Resources */,
+				FCCBA69D1E0130A900D45A9B /* padlock.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14FA611DF8B87C00145744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14FA6C1DF8B87C00145744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC14FA461DF8B87C00145744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC14FA551DF8B87C00145744 /* ViewController.m in Sources */,
+				FC14FA521DF8B87C00145744 /* AppDelegate.m in Sources */,
+				FC14FA841DF8BF7D00145744 /* UITextFieldPassword.m in Sources */,
+				FC83B3021DFD392400DB1522 /* NSString+Base64.m in Sources */,
+				FC14FA4F1DF8B87C00145744 /* main.m in Sources */,
+				FC83B3001DFD392400DB1522 /* NSData+Base64.m in Sources */,
+				FCCBA6A01E0132DA00D45A9B /* AccountInfoViewController.m in Sources */,
+				FC83B3081DFD3B8800DB1522 /* SqlLoader.m in Sources */,
+				FC83B3051DFD397500DB1522 /* AESCrypt.m in Sources */,
+				FC186B7B1DFDF2E7001F86B5 /* UserListsViewController.m in Sources */,
+				FC83B3011DFD392400DB1522 /* NSData+CommonCrypto.m in Sources */,
+				FC83B30B1DFD524700DB1522 /* UserData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14FA5F1DF8B87C00145744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC14FA6A1DF8B87C00145744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC14FA651DF8B87C00145744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC14FA491DF8B87C00145744 /* MemPass */;
+			targetProxy = FC14FA641DF8B87C00145744 /* PBXContainerItemProxy */;
+		};
+		FC14FA701DF8B87C00145744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC14FA491DF8B87C00145744 /* MemPass */;
+			targetProxy = FC14FA6F1DF8B87C00145744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC14FA561DF8B87C00145744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC14FA571DF8B87C00145744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC14FA5B1DF8B87C00145744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC14FA5C1DF8B87C00145744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC14FA751DF8B87C00145744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC14FA761DF8B87C00145744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC14FA781DF8B87C00145744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				DEVELOPMENT_TEAM = V4W5E3TPK9;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = PasswordLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nikeks.MemPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC14FA791DF8B87C00145744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				DEVELOPMENT_TEAM = V4W5E3TPK9;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = PasswordLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nikeks.MemPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC14FA7B1DF8B87C00145744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Jura.PasswordLockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemPass.app/MemPass";
+			};
+			name = Debug;
+		};
+		FC14FA7C1DF8B87C00145744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PasswordLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Jura.PasswordLockerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemPass.app/MemPass";
+			};
+			name = Release;
+		};
+		FC14FA7E1DF8B87C00145744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordLockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Jura.PasswordLockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordLocker;
+			};
+			name = Debug;
+		};
+		FC14FA7F1DF8B87C00145744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PasswordLockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Jura.PasswordLockerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PasswordLocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC14FA451DF8B87C00145744 /* Build configuration list for PBXProject "MemPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14FA751DF8B87C00145744 /* Debug */,
+				FC14FA761DF8B87C00145744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC14FA771DF8B87C00145744 /* Build configuration list for PBXNativeTarget "MemPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14FA781DF8B87C00145744 /* Debug */,
+				FC14FA791DF8B87C00145744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC14FA7A1DF8B87C00145744 /* Build configuration list for PBXNativeTarget "MemPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14FA7B1DF8B87C00145744 /* Debug */,
+				FC14FA7C1DF8B87C00145744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC14FA7D1DF8B87C00145744 /* Build configuration list for PBXNativeTarget "MemPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14FA7E1DF8B87C00145744 /* Debug */,
+				FC14FA7F1DF8B87C00145744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC14FA421DF8B87C00145744 /* Project object */;
+}
