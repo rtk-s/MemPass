@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951495711EE94973002C1EC6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA5E1DF8B87C00145744 /* Info.plist */; };
+		951495721EE9497E002C1EC6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9560AB3D1EE8C1D90090FE1D /* Info.plist */; };
+		951495731EE94982002C1EC6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9560AB401EE8C1D90090FE1D /* Info.plist */; };
 		956715C21EE81A57000AF71B /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 956715C11EE81A57000AF71B /* logo2.png */; };
 		FC14FA4F1DF8B87C00145744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA4E1DF8B87C00145744 /* main.m */; };
 		FC14FA521DF8B87C00145744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA511DF8B87C00145744 /* AppDelegate.m */; };
@@ -317,6 +320,7 @@
 				FC14FA5A1DF8B87C00145744 /* Assets.xcassets in Resources */,
 				FC14FA581DF8B87C00145744 /* Main.storyboard in Resources */,
 				FCCBA69D1E0130A900D45A9B /* padlock.png in Resources */,
+				951495711EE94973002C1EC6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951495721EE9497E002C1EC6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951495731EE94982002C1EC6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +508,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				DEVELOPMENT_TEAM = V4W5E3TPK9;
 				GCC_INPUT_FILETYPE = automatic;
-				INFOPLIST_FILE = PasswordLocker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MemPass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nikeks.MemPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,7 +522,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				DEVELOPMENT_TEAM = V4W5E3TPK9;
 				GCC_INPUT_FILETYPE = automatic;
-				INFOPLIST_FILE = PasswordLocker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MemPass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nikeks.MemPass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
