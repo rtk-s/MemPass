@@ -28,7 +28,7 @@ NSString *pincode;
 
     NSArray *data = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 
-    NSString *file = [[data objectAtIndex:0] stringByAppendingString:@"data.sql"];
+    NSString *file = [[data objectAtIndex:0] stringByAppendingPathComponent:@"data.sql"];
     NSLog(@"%@", file);
     if(sqlite3_open([file UTF8String], &db) == SQLITE_OK){
         sqlite3_exec(db, "CREATE TABLE users(id INTEGER PRIMARY KEY, type TEXT NOT NULL, username TEXT NOT NULL, password TEXT NOT NULL)", queryCallback, nil, &err);

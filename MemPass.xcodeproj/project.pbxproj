@@ -17,7 +17,6 @@
 		FC14FA581DF8B87C00145744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA561DF8B87C00145744 /* Main.storyboard */; };
 		FC14FA5A1DF8B87C00145744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA591DF8B87C00145744 /* Assets.xcassets */; };
 		FC14FA5D1DF8B87C00145744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA5B1DF8B87C00145744 /* LaunchScreen.storyboard */; };
-		FC14FA811DF8BC6500145744 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC14FA801DF8BC6500145744 /* logo.png */; };
 		FC14FA841DF8BF7D00145744 /* UITextFieldPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */; };
 		FC14FA871DF8CD8D00145744 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */; };
 		FC186B7B1DFDF2E7001F86B5 /* UserListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC186B7A1DFDF2E7001F86B5 /* UserListsViewController.m */; };
@@ -66,7 +65,6 @@
 		FC14FA5E1DF8B87C00145744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC14FA631DF8B87C00145744 /* MemPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC14FA6E1DF8B87C00145744 /* MemPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC14FA801DF8BC6500145744 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		FC14FA821DF8BF7D00145744 /* UITextFieldPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldPassword.h; sourceTree = "<group>"; };
 		FC14FA831DF8BF7D00145744 /* UITextFieldPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldPassword.m; sourceTree = "<group>"; };
 		FC14FA861DF8CD8D00145744 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -166,7 +164,6 @@
 				FC83B2FD1DFD392400DB1522 /* NSData+CommonCrypto.m */,
 				FC83B2FE1DFD392400DB1522 /* NSString+Base64.h */,
 				FC83B2FF1DFD392400DB1522 /* NSString+Base64.m */,
-				FC14FA801DF8BC6500145744 /* logo.png */,
 				956715C11EE81A57000AF71B /* logo2.png */,
 				FC14FA501DF8B87C00145744 /* AppDelegate.h */,
 				FC14FA511DF8B87C00145744 /* AppDelegate.m */,
@@ -315,7 +312,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				956715C21EE81A57000AF71B /* logo2.png in Resources */,
-				FC14FA811DF8BC6500145744 /* logo.png in Resources */,
 				FC14FA5D1DF8B87C00145744 /* LaunchScreen.storyboard in Resources */,
 				FC14FA5A1DF8B87C00145744 /* Assets.xcassets in Resources */,
 				FC14FA581DF8B87C00145744 /* Main.storyboard in Resources */,

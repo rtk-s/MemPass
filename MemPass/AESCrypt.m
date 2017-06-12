@@ -3,7 +3,7 @@
 //  Nikolay Malofeev
 //
 //  Created by Nikolay Malofeev on 06/05/17.
-//  Copyright (c) 2012 Nikolay Malofeev
+//  Copyright (c) 2017 Nikolay Malofeev
 // 
 // 	MIT License
 // 
